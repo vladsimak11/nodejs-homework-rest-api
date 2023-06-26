@@ -19,4 +19,4 @@ router.put('/:contactId', isValidId, validateBody(schemas.addSchema),updateConta
 
 router.patch('/:contactId/favorite', isValidId, validateFavoriteBody(schemas.updateFavoriteSchema), updateFavorite);
 
-module.exports = router
+module.exports = router;
